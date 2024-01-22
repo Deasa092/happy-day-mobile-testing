@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\user\\Katalon Studio\\Happy Day Shopping\\mobileapp\\Happy Day Shopping_v1.1.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/New Arrival/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Categories/android.view.ViewGroup'), 0)
 
-Mobile.tap(findTestObject('Object Repository/New Arrival/android.view.ViewGroup (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Categories/android.view.ViewGroup (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/New Arrival/android.widget.TextView - Add to Bag'), 0)
+Mobile.tap(findTestObject('Object Repository/Categories/android.widget.TextView - Add to Bag'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -31,11 +31,11 @@ Mobile.pressBack()
 
 Mobile.scrollToText('Silky Salt ')
 
-Mobile.tap(findTestObject('Object Repository/New Arrival/android.view.ViewGroup (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Categories/android.view.ViewGroup (2)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/New Arrival/android.widget.EditText - 1'), '2', 0)
+Mobile.setText(findTestObject('Object Repository/Categories/android.widget.EditText - 1'), '2', 0)
 
-Mobile.tap(findTestObject('Object Repository/New Arrival/android.view.ViewGroup (3)'), 0)
+Mobile.tap(findTestObject('Object Repository/Categories/android.view.ViewGroup (3)'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
